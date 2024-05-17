@@ -56,7 +56,7 @@ function DrawerAppBar(props) {
             </IconButton>
 
             <Typography variant="h5" sx={{ my: 2, }} style={{ color: 'black', }}>
-                Span Task
+                Snap Task
             </Typography>
             <Divider />
             <List>
@@ -108,7 +108,7 @@ function DrawerAppBar(props) {
                         >
                             <img src={Logo} alt='Logo here' style={{ width: '50px' }} />
                         </IconButton>
-                        Span Task
+                        Snap Task
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
